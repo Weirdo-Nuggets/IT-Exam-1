@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Exam Question 2</title>
+    <style>
+        .container, .questions {
+            text-align: center;
+            background-color: rgb(194, 229, 19);
+            width: 100%;
+        }
+        a {
+            color: rgb(4, 86, 4);
+            text-decoration: none;
+        }
+        hr {
+            color: green;
+            width: 50%;
+        }
+        .contactForm, .courseList {
+            background-color: white;
+            border: 10px solid greenyellow;
+            text-align: center;
+            width: 300px;
+            margin: 10px;
+        }
+        .container2 {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+        }
+        h2 {
+            color: green;
+            background-color: greenyellow;
+        }
+        button {
+            background-color: greenyellow;
+            color: rgb(4, 74, 4);
+            padding: 2px;
+            border: green 2px solid;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Bootleg Yoohoo News!!</h1>
+
+        <a href="https://www.yahoo.com/">
+            <img src="P5choco-squares.jpg" alt="Chocolate Pralines" width="250">
+        </a>
+
+        <hr>
+        
+        <a href="https://www.yahoo.com/"> Go to Yoohoo to get all the scoops!!!</a>
+    </div>
+
+    <div class="questions">
+        <a href="1.IT-Exam Q1.html">This is the first Question</a> <br>
+        <a href="1.IT-Exam Q2.html">This is the second Question</a>
+    </div>
+
+<div class="container2">
+        
+    <div class="contactForm">
+        <form action="form.php" method="post">
+
+            <h2>NuggyLety Contact Form</h2> <br>
+
+            <label>First Name</label> <br>
+            <input type="text"> <br>
+
+            <label>Last Name</label> <br>
+            <input type="text"><br>
+
+            <label>Email</label> <br>
+            <input type="email"><br>
+
+            <label>Date of Birth</label> <br>
+            <input type="date"><br>
+
+            <label>Gender</label> <br>
+            <select name="gender">
+                <option value="default">-select-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Non-Binary">Non-Binary</option>
+                <option value="Other">Other</option>
+            </select> <br>
+
+            <label>Course</label> <br> 
+                <select name="course">
+                    <option value="default">-select-</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                </select>
+            <br>
+
+            <label>Career</label> <br> 
+                <select name="career">
+                    <option value="default">-select-</option>
+                    <option value="student">Student</option>
+                    <option value="employee">Employee</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="retired">Retired</option>
+                </select>
+            <br> <br>
+            <textarea name="Comment" cols="30" rows="10" placeholder="Comment..."></textarea>
+            <br>
+            <button type="submit" name="submit">Submit</button>
+
+        </form>
+
+    </div>
+    
+    <div class="courseList">
+        <h2>NuggyLety Courses</h2>
+        <ul>
+            <li><strong>Programming Courses</strong></li>
+        </ul>
+
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ol>
+    </div>
+
+</div>
+</body>
+</html>
